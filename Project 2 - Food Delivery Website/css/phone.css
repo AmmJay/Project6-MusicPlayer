@@ -1,0 +1,27 @@
+#home{
+    height:280px;
+    flex-direction: column;
+    padding: 3px 70px;
+}
+#home::before{
+    height:400px;
+}
+#navbar{
+    height:57px;
+    flex-direction: column;
+}
+#home p{
+    font-size: 12px;;
+}
+#services{
+
+}
+#services  {
+    flex-direction: column;
+}
+#second{
+    overflow:hidden;
+}
+.primary{
+    font-size: 25px;
+}
