@@ -1,0 +1,11 @@
+.app-body{
+    display: flex;
+    padding: 25px 50px;
+}
+
+/* @media(max-width: 760px){
+    .app-body{
+        display: flex;
+        flex-direction: column;
+    }
+} */

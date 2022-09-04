@@ -1,0 +1,31 @@
+.menu-icon{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 20px;
+    cursor: pointer;
+    /* filter: invert(10%) sepia(60%) saturate(0%) hue-rotate(139deg) brightness(97%) contrast(30%); */
+}
+
+.menu-icon:hover img,
+.menu-icon:hover p{
+    filter: invert(10%) sepia(60%) saturate(0%) hue-rotate(139deg) brightness(97%) contrast(80%);
+}
+
+.menu-icon img{
+    height: 28px;
+    filter: invert(10%) sepia(60%) saturate(0%) hue-rotate(139deg) brightness(97%) contrast(30%);
+}
+.menu-icon p{
+    font-size:0.75rem;
+    filter: invert(10%) sepia(60%) saturate(0%) hue-rotate(139deg) brightness(97%) contrast(20%);
+}
+ .menu-icon #avatar{
+    filter:none !important;
+    border-radius: 15px;
+}
+/* @media(max-width: 760px){
+    .menu-icon p{
+        display: none;
+    }
+} */

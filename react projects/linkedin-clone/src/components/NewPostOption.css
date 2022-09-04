@@ -1,0 +1,15 @@
+.newPostOption{
+    display: flex;
+    align-items: center;
+}
+
+.newPostOption img{
+    height: 1.5rem
+}
+
+.newPostOption p{
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: gray;
+    margin-left: 4px;
+}

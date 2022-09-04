@@ -1,0 +1,45 @@
+.feed{
+    flex: 0.5;
+    margin: 0 20px;
+}
+
+.newPost{
+    background-color: white;
+    width: 100%;
+    border: 1px solid rgb(197, 195, 195);
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.newPostInput{
+    display: flex;
+    align-items: center;
+    border: 1px solid gray;
+    border-radius: 26px;
+    padding: 10px;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+}
+.newPostInput img{
+    height: 1.5rem;
+}
+.newPostInput form input{
+    font-size: 0.9rem;
+    font-weight: 500;
+    width: 275px;
+    border: none;
+    outline: none;
+    margin-left: 10px;
+
+    /* padding: 12px; */
+}
+
+.newPostInput form button{
+    display: none;
+}
+
+.postOptions{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}

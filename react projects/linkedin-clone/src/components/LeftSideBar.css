@@ -1,0 +1,59 @@
+.sidebar{
+    flex: 0.2;
+    border: 1px solid rgb(217, 214, 214);
+    border-radius: 8px;
+    object-fit:fill;
+    overflow: hidden;
+    background-color: white;
+}
+.top-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.top-section .background{
+    width: 100%;
+    height: 10vh;
+    /* border-radius: 8px; */
+    object-fit:cover;
+}
+
+.top-section .avatar{
+    width: 35%;
+    border-radius: 45px;
+    object-fit: cover;
+    border: 2px solid white;
+    margin-top: -25px;
+}
+.name{
+    margin-top: 30px;
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+.about{
+    font-size: 14px;
+    color: gray;
+    border-bottom: 1px solid gray;
+    margin: 0 10px;
+}
+
+.stats{
+    padding: 10px;
+    text-align: center;
+}
+.stats div{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+.stat{
+    font-size: 12px;
+    color: gray;
+}
+
+.number{
+    font-size: 12px;
+    font-weight: 600;
+    color: rgb(43, 143, 243);
+}
